@@ -1,0 +1,56 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: black;
+    margin:0; /*Elimina el margen que viene por defecto*/
+}
+div {
+    -webkit-box-sizing: border-box; /* Elimina un problema de padding de css. Valido para Chrome */
+}
+.post{
+    width:600px;
+    margin:auto;
+    margin-top: 50px;
+    background-color: white; 
+}
+    .titulo div:first-child{
+        display: inline-block;
+        width:9%;
+        margin:0;
+        padding: 5px;
+        padding-left: 20px;
+        font-size: 35px;
+    }
+    .titulo-texto{
+        display: inline-block;
+        width: 78%;
+        margin:0;
+        padding: 10px;
+    }
+    .titulo-texto p{
+        margin:0;
+    }
+    .titulo div:last-child{
+        display: inline-block;
+        width:10%;
+        margin:0;
+        text-align: right;
+        padding: 5px;
+        font-size: 35px;
+    }
+    .iconos{
+        display:flex;
+        margin:10px;
+        font-size: 35px;
+    }
+    .iconos > div {
+        font-size: 35px;
+        margin:5px;
+    }
+    .iconos div:last-child{
+        text-align: right;
+        width: 90%;
+    }
+    .texto{
+        margin:20px;
+        padding-bottom: 15px;
+    }
